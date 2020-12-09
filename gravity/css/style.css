@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5 h6 {
 }
 
 .header {
-
+    height: 140vh;
 }
 
 .nav {
@@ -114,18 +114,38 @@ h1, h2, h3, h4, h5 h6 {
     height: 65px;
 }
 
+/*Second page*/
 
+.problems {
+    padding-top: 137px;
+}
 
+.about {
 
+}
 
+.about__title {
+    font-size: 38px;
+    margin-bottom: 30px;
+}
 
+.about__text {
 
+}
 
+.about__author {
+    background: url("../img/author.jpg") no-repeat left center;
+    padding: 7px 0 7px 96px;
+    margin-top: 61px;
+}
 
+.about__name {
+    font-size: 22px;
+}
 
-
-
-
+.about__prof {
+    margin-bottom: 0;
+}
 
 
 
