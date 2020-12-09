@@ -10,6 +10,12 @@ button {
     background: transparent;
 }
 
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
 .vh-dependent {
     height: 50vh;
     display: flex;
@@ -26,6 +32,10 @@ h1, h2, h3, h4, h5 h6 {
     color: #151515;
     margin: 0;
     padding: 0;
+}
+
+h2 {
+    font-size: 38px;
 }
 
 .btn {
@@ -125,7 +135,6 @@ h1, h2, h3, h4, h5 h6 {
 }
 
 .about__title {
-    font-size: 38px;
     margin-bottom: 30px;
 }
 
@@ -147,27 +156,79 @@ h1, h2, h3, h4, h5 h6 {
     margin-bottom: 0;
 }
 
+/*Third page*/
 
+.services {
+    padding-top: 142px;
+}
 
+.section-title {
 
+}
 
+.section-title__label {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .25em;
+    color: #8f8f8f;
+    margin-bottom: 40px;
+}
 
+.section-title__heading {
 
+}
 
+.serv-list {
+    color: #8d8d8d;
+    margin-top: 67px;
+}
 
+.serv-list__item {
+    margin-bottom: 20px;
+}
 
+.serv-list__left {
+    margin-left: 37px;
+}
 
+/*jquery*/
+.owl-carousel {
+    margin-top: 99px;
+}
 
+.owl-carousel .item, .owl-item {
+    width: 825px !important;
+    position: relative;
+}
 
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: left;
+}
 
+.owl-theme .owl-nav [class*=owl-] {
+    margin: 0;
+}
 
+.owl-nav {
+    margin-top: 50px !important;
+}
 
+.owl-carousel .owl-prev {
+    margin-right: 25px !important;
+}
 
-
-
-
-
-
+.owl-carousel__play {
+    display: block;
+    background: url("../img/play.svg");
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -32px;
+    margin-top: -32px;
+    cursor: pointer;
+}
 
 
 

@@ -4,7 +4,7 @@ $(function() {
 	    margin:30,
 	    nav:true,
 	    dots: false,
-	    navText: ['<img src="img/left.svg">', '<img src="img/right.svg">'],
+	    navText: ['<img alt="" src="../img/left.svg">', '<img alt="" src="../img/right.svg">'],
 	    startPosition: 1,
 	    responsive:{
 	        0:{
@@ -24,7 +24,7 @@ $(function() {
 	    margin:0,
 	    nav:true,
 	    dots: false,
-	    navText: ['<img src="img/left.svg">', '<img src="img/right.svg">'],
+	    navText: ['<img alt="" src="../img/left.svg">', '<img alt="" src="../img/right.svg">'],
 	    // startPosition: 1,
 	    responsive:{
 	        0:{
