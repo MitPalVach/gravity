@@ -209,11 +209,11 @@ h2 {
     margin: 0;
 }
 
-.owl-nav {
+.works-carousel .owl-nav {
     margin-top: 50px !important;
 }
 
-.owl-carousel .owl-prev {
+.works-carousel .owl-prev {
     margin-right: 25px !important;
 }
 
@@ -230,27 +230,68 @@ h2 {
     cursor: pointer;
 }
 
+/*Fourth page*/
 
+.result {
+    padding-top: 219px;
+}
 
+.collage {
+    width: 50%;
+    height: 552px;
+    background: url("../img/img6.jpg") no-repeat left top / 80% 70%;
+    position: absolute;
+    left: 0;
+}
 
+.collage img {
+    display: block;
+    width: 350px;
+    height: 453px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    box-shadow: 30px 80px 130px rgba(0, 0, 0, .25);
+}
 
+.easy {
+    margin-left: 65px;
+    margin-top: 30px;
+}
 
+.easy__title {
+    margin-bottom: 30px;
+}
 
+.easy__text {
+    margin-bottom: 52px;
+}
 
+.easy__point {
+    padding-left: 83px;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
 
+.easy__point_first {
+    background: url("../img/icon100.svg") no-repeat left center;
+}
 
+.easy__point_second {
+    background: url("../img/bag.svg") no-repeat left center;
+}
 
+/*fifth page*/
 
-
-
-
-
-
-
-
-
-
-
+.works {
+    padding-top: 283px;
+}
 
 
 
