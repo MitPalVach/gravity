@@ -10,6 +10,16 @@ button {
     background: transparent;
 }
 
+.vh-dependent {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.be-static {
+    position: static;
+}
+
 h1, h2, h3, h4, h5 h6 {
     font-style: normal;
     font-weight: 700;
@@ -64,17 +74,45 @@ h1, h2, h3, h4, h5 h6 {
 
 .offer-cont__text {
     margin: 30px 0 56px;
+    padding-left: 0;
+    padding-right: 20px;
+    line-height: 28px;
+    font-size: 18px;
 }
 
 .offer-cont_btn {
 
 }
 
+.hero {
+    background: url("../img/img1.jpg") no-repeat right top;
+    background-size: 100% 100%;
+    width: 49%;
+    height: 120vh;
+    position: absolute;
+    right: 0;
+    top: 142px;
+}
 
+.video {
+    position: absolute;
+    left: -110px;
+    bottom: 20%;
+    width: 57%;
+    height: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/video.jpg") no-repeat center center;
+}
 
-
-
-
+.video:after {
+    content: '';
+    display: block;
+    background: url("../img/play.svg");
+    width: 65px;
+    height: 65px;
+}
 
 
 
