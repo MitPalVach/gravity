@@ -395,13 +395,20 @@ h3 {
 
 /*seventh page*/
 
+.clients {
+    padding-top: 278px;
+}
 
+.clients-label {
+    color: #000;
+    margin-bottom: 17px;
+}
 
+.clients-row {
+    margin-top: 127px;
+}
 
-
-
-
-
+/*eighth page*/
 
 
 
