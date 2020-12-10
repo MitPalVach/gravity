@@ -200,10 +200,6 @@ h3 {
     margin-top: 99px;
 }
 
-.works-carousel .item, .works-carousel .owl-item {
-    width: 825px !important;
-    position: relative;
-}
 
 .owl-theme .owl-dots, .owl-theme .owl-nav {
     text-align: left;
@@ -421,6 +417,131 @@ h3 {
     margin-bottom: 100px;
 }
 
+/*Media*/
+
+@media screen and (max-width: 1200px) {
+
+
+    .work-tabs {
+        margin-left: 0;
+    }
+
+    .work-wrap__item {
+        width: 30%;
+    }
+
+    .work-wrap__item img {
+        display: block;
+        width: 100%;
+    }
+
+    .contributor {
+        margin-top: 20px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 992px) {
+    .works-carousel .item, .works-carousel .owl-item {
+        width: 825px !important;
+        position: relative;
+    }
+
+    .works-carousel .item, .works-carousel .owl-item {
+        width: auto !important;
+    }
+
+    .section-title__heading_review {
+        font-size: 28px;
+    }
+
+
+}
+
+@media screen and (max-width: 720px) {
+    .hero {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        top: 0;
+        margin-top: 0;
+
+    }
+
+    .vh-dependent {
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .about {
+        margin-top: 60px;
+    }
+
+    .collage {
+        position: relative;
+        width: 100%;
+    }
+
+    .easy {
+        margin-left: 0;
+        margin-top: 110px;
+    }
+
+    .contributor-carousel .owl-nav {
+        margin-top: 40px;
+    }
+
+    .header {
+        height: 70vh;
+    }
+
+    .works {
+        padding-top: 140px;
+    }
+
+    .testimonials {
+        padding-top: 140px;
+    }
+
+    .clients {
+        padding-top: 140px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .serv-list__left {
+        margin-left: 0;
+    }
+
+    .work-wrap__item {
+        width: 100%;
+    }
+
+    .clients-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clients-row__item {
+        margin-bottom: 60px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .work-tabs {
+        flex-direction: column;
+    }
+
+    .work-tabs__item {
+        margin-bottom: 40px;
+    }
 
 
 
@@ -428,5 +549,16 @@ h3 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+}
 
 
