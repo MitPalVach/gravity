@@ -293,30 +293,82 @@ h2 {
     padding-top: 283px;
 }
 
+.work-tabs {
+    margin-left: 60px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    margin-top: 70px;
+}
 
+.work-tabs__item a {
+    text-decoration: none;
+    color: #8d8d8d;
+}
 
+.work-tabs__item.active a {
+    color: #1434e1;
+}
 
+.works-wrap {
+    flex-wrap: wrap;
+    margin-top: 108px;
+}
 
+.work-wrap__item {
+    margin-bottom: 30px;
+    display: block;
+    position: relative;
+}
 
+.work-wrap__item {
+    transition: all 1s ease;
+    display: block;
+}
 
+.work-wrap__item:hover img {
+    box-shadow: -30px 80px 200px rgba(0, 0, 0, .25);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
+.work-wrap__item:hover:after {
+    content: '';
+    display: block;
+    background: url("../img/play.svg");
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -32px;
+    margin-top: -32px;
+}
 
+.tabs__content {
+    display: none !important;
+}
 
+.tabs__content.active {
+    display: flex !important;
+}
 
+/*sixth page*/
 
+.contributor {
 
+}
 
+.contributor__title {
 
+}
 
+.contributor__desc {
 
-
-
-
-
-
-
-
-
+}
 
 
 
