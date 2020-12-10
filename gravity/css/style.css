@@ -410,9 +410,16 @@ h3 {
 
 /*eighth page*/
 
+.footer {
+    margin-top: 137px;
+    height: 240px;
+    background: #515151;
+}
 
-
-
+.footer-logo {
+    margin-top: 109px;
+    margin-bottom: 100px;
+}
 
 
 
